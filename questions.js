@@ -1,7 +1,13 @@
+ var selectElementsStartingWithA = function(array) {
+        /*la méthode filter(nom_fonction) va stocker les résultats de la fonction 
+        dans un tableau*/
+        /*la méthode charAt() parcourt naturellement tout le tableau */
 
-var selectElementsStartingWithA = function(array) {
- return 'Write your method here';
-}
+        function truc(elements) {
+            return elements.charAt(0) == 'a';
+        }
+        return array.filter(truc);
+    }
 
 var selectElementsStartingWithVowel = function(array) {
  return 'Write your method here';
